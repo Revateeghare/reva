@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./css/anamika.css">
+  <title>Disappear Small Images</title>
+</head>
+<body>
+  <div id="container">
+    <div id="sidebar">
+      <p id="objectCount">Items needed: <span>10</span></p>
+      <div id="timer">Time remaining: <span id="time">00:00</span></div>
+      <ul id="list">
+        <li>fairy</li>
+        <li id="catItem">cat</li>
+        <li id="animeItem">Anime</li>
+        <li>anamika</li>
+        <li>vaibhav</li>
+        <li>neha</li>
+        <li>pragya</li>
+        <li>yash</li>
+        <li>nisha</li>
+        <li>saloni</li>
+      </ul>
+      <button class="button" id="Clue" >CLUE</button>
+      <button class="button" id="ExitGame">EXIT</button>
+    </div>
+
+    <div id="background">
+      <img src="./css/eobj2.png" class="small-image" style="left: 100px; top: 150px;" alt="Small Image 1" id="catIcon" onclick="removeListItem('catItem')">
+      <img src="./images/anime.png" class="small-image" style="left: 300px; top: 250px;" alt="Small Image 2" id="fairyIcon" onclick="removeListItem('animeItem')">
+      <img src="./images/antMan3.jpeg"  style="left: 500px; top: 350px;" alt="Small Image 3">
+      <img src="./images/beauty.jpeg" class="small-image" style="left: 800px; top: 390px;" alt="Small Image 4">
+    </div>
+  </div>
+  <script src="./ANAMIKA.JS"></script>
+</body>
+</html>
